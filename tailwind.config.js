@@ -10,6 +10,13 @@ export default {
         './resources/js/**/*.vue',
     ],
 
+    safelist: [
+        'w-1/2',
+        'w-1/3',
+        'flex',
+        'flex-row'
+    ],
+
     theme: {
         extend: {
             fontFamily: {
